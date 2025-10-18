@@ -34,30 +34,6 @@ const Testimonials = () => {
       content: 'Ceramic coating-ul aplicat pe mașina mea îi dă o strălucire incredibilă. De 6 luni arată ca nouă după fiecare spălare. Serviciul este de 5 stele!',
       rating: 5,
       image: '/testimonials/cristian-radu.jpg'
-    },
-    {
-      id: 4,
-      name: 'Andreea Stan',
-      role: 'Proprietar Porsche 911',
-      content: 'PPF-ul instalat de Society Garage protejează perfect vopseaua mașinii mele. Calitatea materialului și instalarea sunt de nivel profesional. Mulțumesc!',
-      rating: 5,
-      image: '/testimonials/andreea-stan.jpg'
-    },
-    {
-      id: 5,
-      name: 'Mihai Constantinescu',
-      role: 'Proprietar VW Golf',
-      content: 'Detailing-ul interior și exterior făcut la Society Garage a transformat complet mașina mea. Echipamentul și produsele folosite sunt de cea mai bună calitate.',
-      rating: 5,
-      image: '/testimonials/mihai-constantinescu.jpg'
-    },
-    {
-      id: 6,
-      name: 'Elena Dumitrescu',
-      role: 'Proprietar Mini Cooper',
-      content: 'Serviciul de detailing interior a fost excepțional. Mașina mea arată și miroase ca nouă. Personalul este foarte prietenos și profesional.',
-      rating: 5,
-      image: '/testimonials/elena-dumitrescu.jpg'
     }
   ]
 

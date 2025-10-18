@@ -1,34 +1,19 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+// Removed useRef import
 import Link from 'next/link'
 import { ChevronDown, Play, Star } from 'lucide-react'
 
 const Hero = () => {
-  const heroRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const handleParallax = () => {
-      if (heroRef.current) {
-        const scrolled = window.pageYOffset
-        const parallax = scrolled * 0.5
-        heroRef.current.style.transform = `translateY(${parallax}px)`
-      }
-    }
-
-    window.addEventListener('scroll', handleParallax)
-    return () => window.removeEventListener('scroll', handleParallax)
-  }, [])
+  // Removed parallax scroll effect
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Parallax */}
+      {/* Background Image */}
       <div
-        ref={heroRef}
-        className="absolute inset-0 w-full h-[120%] bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: 'url(/images/hero/hero-bg.jpg)',
-          backgroundAttachment: 'fixed',
         }}
       />
       
@@ -37,9 +22,9 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen lg:min-h-screen py-16 lg:py-20">
           {/* Left side - Text content */}
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left lg:col-span-1">
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-primary/10 backdrop-blur-sm border border-primary/20 rounded-full px-4 py-2 mb-6">
             <Star className="w-4 h-4 text-primary" />
@@ -92,8 +77,8 @@ const Hero = () => {
           </div>
           </div>
 
-          {/* Right side - Featured image */}
-          <div className="relative group">
+          {/* Right side - Featured image - Hidden on mobile */}
+          <div className="relative group hidden lg:block">
             {/* Glow effect behind image */}
             <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 via-primary/10 to-primary/20 rounded-3xl blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             

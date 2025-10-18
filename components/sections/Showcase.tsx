@@ -17,7 +17,7 @@ const Showcase = () => {
   const projects = [
     {
       id: 1,
-      title: 'BMW M3 Competition - Fully wrapped with PPF on all carbon elements',
+      title: 'BMW M3 Competition - Full PPF',
       category: 'PPF',
       image: '/images/projects/bmw-m3-1.jpg',
       beforeImage: '/images/before-after/bmw-m3-before.jpg',
