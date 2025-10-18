@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://societygarage.ro/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://societygarage.ro/og-image.jpg</image:loc>
+      <image:title>Society Garage - Atelier Tuning Auto Premium București</image:title>
+      <image:caption>Society Garage oferă servicii premium de tuning, car wrap, paint protection film și detailing profesional în București</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Servicii -->
+  <url>
+    <loc>https://societygarage.ro/servicii</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://societygarage.ro/og-servicii.jpg</image:loc>
+      <image:title>Servicii Premium - Society Garage</image:title>
+      <image:caption>Servicii: Tuning, Car wrap, PPF, Detailing exterior & interior, Ceramic coating</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Galerie -->
+  <url>
+    <loc>https://societygarage.ro/galerie</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://societygarage.ro/og-galerie.jpg</image:loc>
+      <image:title>Galerie Proiecte - Society Garage</image:title>
+      <image:caption>Descoperă transformările spectaculoase realizate de Society Garage</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Despre -->
+  <url>
+    <loc>https://societygarage.ro/despre</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://societygarage.ro/og-despre.jpg</image:loc>
+      <image:title>Despre Society Garage - Atelier Tuning Auto Premium</image:title>
+      <image:caption>Society Garage - atelier premium de tuning auto în București cu peste 5 ani experiență</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://societygarage.ro/contact</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://societygarage.ro/og-contact.jpg</image:loc>
+      <image:title>Contact Society Garage - Programează Consultanță Gratuită</image:title>
+      <image:caption>Contactează Society Garage pentru consultanță gratuită. Telefon: 0720637273</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

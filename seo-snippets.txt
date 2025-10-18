@@ -1,0 +1,58 @@
+# SEO Snippets pentru Society Garage
+
+## Pagina Acasă
+Title: Society Garage — Atelier tuning auto & car wrap în București
+Meta Description: Society Garage oferă servicii premium de tuning, car wrap, paint protection film și detailing profesional în București. Programează o consultare: 0720637273.
+Keywords: tuning auto, car wrap, paint protection film, detailing, ceramic coating, București, Society Garage
+
+## Pagina Servicii
+Title: Servicii Premium - Society Garage | Tuning, Car Wrap, PPF, Detailing
+Meta Description: Servicii: Tuning, Car wrap, PPF, Detailing exterior & interior, Ceramic coating. Specialiști în proiecte custom, finisaje de calitate în București.
+Keywords: servicii tuning, car wrap bucuresti, paint protection film, detailing auto, ceramic coating, servicii auto premium
+
+## Pagina Galerie
+Title: Galerie Proiecte - Society Garage | Before & After Tuning, Car Wrap
+Meta Description: Descoperă transformările spectaculoase realizate de Society Garage. Galerie cu proiecte de tuning, car wrap, PPF și detailing în București.
+Keywords: galerie tuning, before after car wrap, proiecte auto, transformari masini, galerie bucuresti
+
+## Pagina Despre
+Title: Despre Society Garage - Atelier Tuning Auto Premium București
+Meta Description: Society Garage - atelier premium de tuning auto în București cu peste 5 ani experiență. Echipă expertă, materiale premium și servicii de calitate superioară.
+Keywords: despre society garage, atelier tuning bucuresti, echipa auto, experienta tuning, servicii premium
+
+## Pagina Contact
+Title: Contact Society Garage - Programează Consultanță Gratuită | București
+Meta Description: Contactează Society Garage pentru consultanță gratuită. Telefon: 0720637273, Adresă: Strada Petru Vodă 23, București. Programează-te acum!
+Keywords: contact society garage, programare tuning, consultanta gratuita, bucuresti, telefon 0720637273
+
+## Open Graph Tags (pentru toate paginile)
+og:title: [Titlul paginii]
+og:description: [Meta description-ul paginii]
+og:image: [URL-ul imaginii pentru social media]
+og:url: [URL-ul paginii]
+og:type: website
+og:site_name: Society Garage
+og:locale: ro_RO
+
+## Twitter Cards
+twitter:card: summary_large_image
+twitter:title: [Titlul paginii]
+twitter:description: [Meta description-ul paginii]
+twitter:image: [URL-ul imaginii pentru Twitter]
+
+## Schema.org JSON-LD
+- LocalBusiness schema implementat în layout.tsx
+- Include: nume, adresă, telefon, servicii, orar, rating, recenzii
+- Optimizat pentru căutări locale în București
+
+## Sitemap.xml
+- Include toate paginile principale
+- Imagini pentru fiecare pagină
+- Prioritate și frecvență de actualizare setate
+- Optimizat pentru motoarele de căutare
+
+## Robots.txt
+- Permite indexarea tuturor paginilor importante
+- Blochează directoarele tehnice
+- Include referința către sitemap.xml
+- Setează crawl-delay pentru a evita suprasolicitarea serverului

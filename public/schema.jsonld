@@ -1,0 +1,170 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Society Garage",
+  "description": "Atelier premium de tuning auto, car wrap, paint protection film și detailing profesional în București",
+  "url": "https://societygarage.ro",
+  "telephone": "0720637273",
+  "email": "contact@societygarage.ro",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Strada Petru Vodă 23",
+    "addressLocality": "București",
+    "postalCode": "052034",
+    "addressCountry": "RO"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "44.400962299999996",
+    "longitude": "26.063719"
+  },
+  "openingHours": [
+    "Mo 09:00-18:00",
+    "Tu 09:00-18:00",
+    "We 09:00-18:00",
+    "Th 09:00-18:00",
+    "Fr 09:00-18:00",
+    "Sa 09:00-18:00",
+    "Su 09:00-18:00"
+  ],
+  "priceRange": "$$$",
+  "paymentAccepted": "Cash, Card, Bank Transfer",
+  "currenciesAccepted": "RON",
+  "serviceArea": {
+    "@type": "City",
+    "name": "București"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicii Auto Premium",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Tuning Auto",
+          "description": "Modificări performante și estetice pentru personalizarea mașinii"
+        },
+        "price": "500",
+        "priceCurrency": "RON",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Car Wrap",
+          "description": "Schimbă complet aspectul mașinii cu folii premium"
+        },
+        "price": "2000",
+        "priceCurrency": "RON",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Paint Protection Film",
+          "description": "Protejează vopseaua originală cu filme transparente de ultimă generație"
+        },
+        "price": "1500",
+        "priceCurrency": "RON",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Detailing Exterior",
+          "description": "Curățare și protecție profesională pentru exteriorul mașinii"
+        },
+        "price": "300",
+        "priceCurrency": "RON",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Detailing Interior",
+          "description": "Curățare profundă și protecție pentru interiorul mașinii"
+        },
+        "price": "200",
+        "priceCurrency": "RON",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Ceramic Coating",
+          "description": "Protecție ceramică de ultimă generație pentru strălucire durabilă"
+        },
+        "price": "800",
+        "priceCurrency": "RON",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.instagram.com/societygarage.ro/"
+  ],
+  "foundingDate": "2019",
+  "numberOfEmployees": "6",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "200",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Alexandru Popescu"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Am fost impresionat de profesionalismul echipei Society Garage. Tuning-ul făcut pe mașina mea a depășit toate așteptările."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Maria Ionescu"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Car wrap-ul făcut la Society Garage arată incredibil! Folia este de cea mai bună calitate și instalarea a fost perfectă."
+    }
+  ],
+  "image": [
+    "https://societygarage.ro/og-image.jpg",
+    "https://societygarage.ro/hero-bg.jpg",
+    "https://societygarage.ro/gallery/featured-1.jpg",
+    "https://societygarage.ro/gallery/featured-2.jpg",
+    "https://societygarage.ro/gallery/featured-3.jpg"
+  ],
+  "logo": "https://societygarage.ro/logo.png",
+  "areaServed": {
+    "@type": "City",
+    "name": "București"
+  },
+  "knowsAbout": [
+    "Tuning Auto",
+    "Car Wrap",
+    "Paint Protection Film",
+    "Detailing Auto",
+    "Ceramic Coating",
+    "Modificări Auto",
+    "Personalizare Auto"
+  ]
+}
